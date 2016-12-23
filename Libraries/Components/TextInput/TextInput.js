@@ -398,7 +398,7 @@ const TextInput = React.createClass({
      * - `update()`
      *
      * > You can reference `DocumentSelectionState` in
-     * > [`vendor/document/selection/DocumentSelectionState.js`](https://github.com/facebook/react-native/blob/master/Libraries/vendor/document/selection/DocumentSelectionState.js)
+     * > [`vendor/document/selection/DocumentSelectionState.js`](https://github.com/_facebook/react-native/blob/master/Libraries/vendor/document/selection/DocumentSelectionState.js)
      *
      * @platform ios
      */

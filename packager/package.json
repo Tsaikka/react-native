@@ -4,6 +4,6 @@
   "description": "Build native apps with React!",
   "repository": {
     "type": "git",
-    "url": "git@github.com:facebook/react-native.git"
+    "url": "git@github.com:Tsaikka/react-native.git"
   }
 }

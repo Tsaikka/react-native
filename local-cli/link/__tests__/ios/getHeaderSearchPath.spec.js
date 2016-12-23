@@ -25,7 +25,7 @@ describe('ios::getHeaderSearchPath', () => {
   });
 
   /**
-   * See https://github.com/facebook/react-native/tree/master/React
+   * See https://github.com/_facebook/react-native/tree/master/React
    */
   it('should return correct path when headers are in multiple folders', () => {
     const files = [

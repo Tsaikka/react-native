@@ -136,7 +136,7 @@ function link(args, config) {
   return promiseWaterfall(tasks).catch(err => {
     log.error(
       `It seems something went wrong while linking. Error: ${err.message} \n`
-      + 'Please file an issue here: https://github.com/facebook/react-native/issues'
+      + 'Please file an issue here: https://github.com/_facebook/react-native/issues'
     );
     throw err;
   });

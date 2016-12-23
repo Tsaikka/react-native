@@ -395,7 +395,7 @@ class ResolutionRequest {
               toModuleName,
               `Module does not exist in the module map ${searchQueue.length ? 'or in these directories:' : ''}\n` +
                 searchQueue.map(searchPath => `  ${path.dirname(searchPath)}\n`) + '\n' +
-              `This might be related to https://github.com/facebook/react-native/issues/4968\n` +
+              `This might be related to https://github.com/_facebook/react-native/issues/4968\n` +
               `To resolve try the following:\n` +
               `  1. Clear watchman watches: \`watchman watch-del-all\`.\n` +
               `  2. Delete the \`node_modules\` folder: \`rm -rf node_modules && npm install\`.\n` +

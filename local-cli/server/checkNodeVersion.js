@@ -29,7 +29,7 @@ module.exports = function() {
       'Installer: download the Mac .pkg from https://nodejs.org/\n' +
       '\n' +
       'About Node.js:   https://nodejs.org\n' +
-      'Follow along at: https://github.com/facebook/react-native/issues/2545';
+      'Follow along at: https://github.com/_facebook/react-native/issues/2545';
     console.log(formatBanner(message, {
       chalkFunction: chalk.green,
       marginLeft: 1,

@@ -29,7 +29,7 @@ const ListViewDataSource = require('ListViewDataSource');
  * which row is swiped open and close opened row(s) when another row is swiped
  * open.
  *
- * See https://github.com/facebook/react-native/pull/5602 for why
+ * See https://github.com/_facebook/react-native/pull/5602 for why
  * ListViewDataSource is not subclassed.
  */
 class SwipeableListViewDataSource {

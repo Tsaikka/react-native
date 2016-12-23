@@ -6,7 +6,7 @@ The Movies app is a demonstration of basic concepts, such as fetching data, rend
 
 Before running the app, make sure you ran:
 
-    git clone https://github.com/facebook/react-native.git
+    git clone https://github.com/Tsaikka/react-native.git
     cd react-native
     npm install
 
@@ -21,7 +21,7 @@ See [Running on device](https://facebook.github.io/react-native/docs/running-on-
 
 ### Running on Android
 
-You'll need to have all the [prerequisites](https://github.com/facebook/react-native/tree/master/ReactAndroid#prerequisites) (SDK, NDK) for Building React Native installed.
+You'll need to have all the [prerequisites](https://github.com/Tsaikka/react-native/tree/master/ReactAndroid#prerequisites) (SDK, NDK) for Building React Native installed.
 
 Start an Android emulator ([Genymotion](https://www.genymotion.com) is recommended).
 

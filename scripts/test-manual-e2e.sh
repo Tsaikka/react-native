@@ -78,4 +78,4 @@ open "/tmp/${project_name}/ios/${project_name}.xcodeproj"
 cd "$repo_root"
 
 info "Next steps:"
-info "   - https://github.com/facebook/react-native/blob/master/Releases.md"
+info "   - https://github.com/Tsaikka/react-native/blob/master/Releases.md"

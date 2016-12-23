@@ -53,7 +53,7 @@ public class ReactTextView extends TextView implements ReactCompoundView {
     mContainsImages = update.containsImages();
     // Android's TextView crashes when it tries to relayout if LayoutParams are
     // null; explicitly set the LayoutParams to prevent this crash. See:
-    // https://github.com/facebook/react-native/pull/7011
+    // https://github.com/_facebook/react-native/pull/7011
     if (getLayoutParams() == null) {
       setLayoutParams(EMPTY_LAYOUT_PARAMS);
     }

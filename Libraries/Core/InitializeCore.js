@@ -50,7 +50,7 @@ const defineLazyObjectProperty = require('defineLazyObjectProperty');
  *
  *   global.XMLHttpRequest = global.originalXMLHttpRequest;
  *
- * @see https://github.com/facebook/react-native/issues/934
+ * @see https://github.com/_facebook/react-native/issues/934
  */
 function defineProperty<T>(
   object: Object,
@@ -180,7 +180,7 @@ if (navigator === undefined) {
   global.navigator = navigator = {};
 }
 
-// see https://github.com/facebook/react-native/issues/10881
+// see https://github.com/_facebook/react-native/issues/10881
 defineProperty(navigator, 'product', () => 'ReactNative', true);
 defineProperty(navigator, 'geolocation', () => require('Geolocation'));
 

@@ -7,7 +7,7 @@ import android.text.style.LineHeightSpan;
 
 /**
  * We use a custom {@link LineHeightSpan}, because `lineSpacingExtra` is broken. Details here:
- * https://github.com/facebook/react-native/issues/7546
+ * https://github.com/_facebook/react-native/issues/7546
  */
 public class CustomLineHeightSpan implements LineHeightSpan {
   private final int mHeight;

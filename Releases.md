@@ -18,7 +18,7 @@ https://github.com/facebook/react-native/releases
 #### Prerequisites
 
 The following are required for the local test suite to run:
-- Mac OS X with [Android dev environment set up](https://github.com/facebook/react-native/blob/master/ReactAndroid/README.md)
+- Mac OS X with [Android dev environment set up](https://github.com/Tsaikka/react-native/blob/master/ReactAndroid/README.md)
 - At least 0.2.0 [react-native-cli](https://www.npmjs.com/package/react-native-cli) installed globally
 
 #### Check everything works
@@ -59,7 +59,7 @@ Write the release notes, or post in [React Native Core Contributors](https://www
 
 To go through all the commits that went into a release, one way is to use the GitHub compare view:
 ```
-https://github.com/facebook/react-native/compare/0.21-stable...0.22-stable
+https://github.com/Tsaikka/react-native/compare/0.21-stable...0.22-stable
 ```
 
 **Note**: This only shows **250** commits, if there are more use git.
@@ -70,13 +70,13 @@ Sometimes commit messages might be really short / confusing - try rewording them
 - `Fix logging reported by RUN_JS_BUNDLE` -> `Fix systrace logging of RUN_JS_BUNDLE event`
 - `Fixes hot code reloading issue` -> `Fix an edge case in hot module reloading`
 
-Before posting the list of changes, consider asking one of contributors for their opinion. Once everything is ready, post the release notes: https://github.com/facebook/react-native/releases
+Before posting the list of changes, consider asking one of contributors for their opinion. Once everything is ready, post the release notes: https://github.com/Tsaikka/react-native/releases
 
 **Important**: For release candiate releases, make sure to check "This is a pre-release"
 
 #### Update `Breaking Changes` document
 
-Once the release is cut, go to the [page](https://github.com/facebook/react-native/wiki/Breaking-Changes) where all breaking changes are listed and create section for the release. Don't forget to move all breaking changes from `master` that are now part of the release.
+Once the release is cut, go to the [page](https://github.com/Tsaikka/react-native/wiki/Breaking-Changes) where all breaking changes are listed and create section for the release. Don't forget to move all breaking changes from `master` that are now part of the release.
 
 When finished and there are breaking changes, include them in the release notes you just created.
 
@@ -86,7 +86,7 @@ Tweet about it! Link to release notes and say "please report issues" and link to
 
 ## IMPORTANT: Track bug reports from the community during the following two weeks, ping owners to get them fixed
 
-A good way to do this is to create a github issue and post about it so people can report bugs. Examples: [#6087](https://github.com/facebook/react-native/issues/6087), [#5201](https://github.com/facebook/react-native/issues/5201)
+A good way to do this is to create a github issue and post about it so people can report bugs. Examples: [#6087](https://github.com/Tsaikka/react-native/issues/6087), [#5201](https://github.com/Tsaikka/react-native/issues/5201)
 
 **Only cherry-pick small and non-risky bug fixes**. **Don't pick new features into the release** as this greatly increases the risk of something breaking. The main point of the RC is to let people to use it for two weeks and fix the most serious bugs.
 
@@ -123,7 +123,7 @@ node ./scripts/bump-oss-version.js <exact_version_you_are_releasing>
 
 Roughly two weeks after the branch cut (see the release schedule above) it's time to promote the last RC to a real release.
 
-Once all bugfixes have been cherry-picked and you're sure the release is solid (example: [#6087](https://github.com/facebook/react-native/issues/6087)), do the release:
+Once all bugfixes have been cherry-picked and you're sure the release is solid (example: [#6087](https://github.com/Tsaikka/react-native/issues/6087)), do the release:
 
 ```bash
 git checkout 0.version_you_are_releasing-stable
@@ -151,7 +151,7 @@ node ./scripts/bump-oss-version.js <exact_version_you_are_releasing>
 Once you see the version in the top left corner of the website has been updated:
 Move the release notes to the tag you've just created. We want single release notes per version,
 for example if there is v0.22.0-rc and later we release v0.22.0, the release notes should live on v0.22.0:
-https://github.com/facebook/react-native/tags
+https://github.com/Tsaikka/react-native/tags
 
 For non-RC releases: Uncheck the box "This is a pre-release" and publish the notes.
 

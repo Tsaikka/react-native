@@ -194,7 +194,7 @@ const JSTimersExecution = {
       JSTimersExecution.immediates = [];
 
       // Use for loop rather than forEach as per @vjeux's advice
-      // https://github.com/facebook/react-native/commit/c8fd9f7588ad02d2293cac7224715f4af7b0f352#commitcomment-14570051
+      // https://github.com/_facebook/react-native/commit/c8fd9f7588ad02d2293cac7224715f4af7b0f352#commitcomment-14570051
       for (let i = 0; i < passImmediates.length; ++i) {
         JSTimersExecution.callTimer(passImmediates[i], 0);
       }

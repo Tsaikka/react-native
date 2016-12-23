@@ -119,4 +119,4 @@ If you don't want to install Sinopia you could still test changes done on the cl
 
 Note that `REACT_NATIVE_GITHUB` should point to the directory where you have a checkout.
 
-Also, if the changes you're making get triggered when running `react-native init AwesomeProject` you will want to tweak the global installed `react-native-cli` library to install the local checkout instead of downloading the module from npm. To do so just change this [line](https://github.com/facebook/react-native/blob/master/react-native-cli/index.js#L191) and refer the local checkout instead.
+Also, if the changes you're making get triggered when running `react-native init AwesomeProject` you will want to tweak the global installed `react-native-cli` library to install the local checkout instead of downloading the module from npm. To do so just change this [line](https://github.com/Tsaikka/react-native/blob/master/react-native-cli/index.js#L191) and refer the local checkout instead.

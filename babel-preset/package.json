@@ -3,7 +3,7 @@
   "version": "1.9.0",
   "description": "Babel preset for React Native applications",
   "main": "index.js",
-  "repository": "https://github.com/facebook/react-native/tree/master/babel-preset",
+  "repository": "https://github.com/Tsaikka/react-native/tree/master/babel-preset",
   "keywords": [
     "babel",
     "preset",
@@ -11,9 +11,9 @@
   ],
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/facebook/react-native/issues"
+    "url": "https://github.com/Tsaikka/react-native/issues"
   },
-  "homepage": "https://github.com/facebook/react-native/tree/master/babel-preset/README.md",
+  "homepage": "https://github.com/Tsaikka/react-native/tree/master/babel-preset/README.md",
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.5.0",
     "babel-plugin-react-transform": "2.0.2",

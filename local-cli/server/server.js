@@ -29,7 +29,7 @@ function server(argv, config, args) {
     'Keep this packager running while developing on any JS projects. ' +
     'Feel free to close this tab and run your own packager instance if you ' +
     'prefer.\n\n' +
-    'https://github.com/facebook/react-native', {
+    'https://github.com/_facebook/react-native', {
       marginLeft: 1,
       marginRight: 1,
       paddingBottom: 1,

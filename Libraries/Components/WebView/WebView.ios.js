@@ -101,7 +101,7 @@ var defaultRenderError = (errorDomain, errorCode, errorDesc) => (
  *   render() {
  *     return (
  *       <WebView
- *         source={{uri: 'https://github.com/facebook/react-native'}}
+ *         source={{uri: 'https://github.com/_facebook/react-native'}}
  *         style={{marginTop: 20}}
  *       />
  *     );

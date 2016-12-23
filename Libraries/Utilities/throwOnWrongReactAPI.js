@@ -25,7 +25,7 @@ You should now do:
   import React, { Component } from 'react';
   import { View } from 'react-native';
 
-Check the release notes on how to upgrade your code - https://github.com/facebook/react-native/releases/tag/v0.25.1
+Check the release notes on how to upgrade your code - https://github.com/_facebook/react-native/releases/tag/v0.25.1
 `);
 }
 

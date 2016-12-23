@@ -262,7 +262,7 @@ var AsyncStorage = {
       // allocating result pair arrays). This was heavily benchmarked.
       //
       // Is there a way to avoid using the map but fix the bug in this breaking test?
-      // https://github.com/facebook/react-native/commit/8dd8ad76579d7feef34c014d387bf02065692264
+      // https://github.com/_facebook/react-native/commit/8dd8ad76579d7feef34c014d387bf02065692264
       const map = {};
       result.forEach(([key, value]) => map[key] = value);
       const reqLength = getRequests.length;

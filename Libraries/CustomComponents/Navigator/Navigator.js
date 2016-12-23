@@ -269,7 +269,7 @@ var GESTURE_ACTIONS = [
  * Another type of navigation bar, with breadcrumbs, is provided by
  * `Navigator.BreadcrumbNavigationBar`. You can also provide your own navigation
  * bar by passing it through the `navigationBar` prop. See the
- * [UIExplorer](https://github.com/facebook/react-native/tree/master/Examples/UIExplorer)
+ * [UIExplorer](https://github.com/_facebook/react-native/tree/master/Examples/UIExplorer)
  * demo to try out both built-in navigation bars out and see how to use them.
  *
  * ### Scene Transitions

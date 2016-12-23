@@ -88,7 +88,7 @@ function validateAndUpgrade() {
   console.log(
     'Upgrading project to react-native v' + installed.version + '\n' +
     'Check out the release notes and breaking changes: ' +
-    'https://github.com/facebook/react-native/releases/tag/v' +
+    'https://github.com/_facebook/react-native/releases/tag/v' +
     semver.major(v) + '.' + semver.minor(v) + '.0'
   );
 
