@@ -34,6 +34,8 @@ function copyProjectTemplateAndReplace(srcPath, destPath, newProjectName, option
       // Don't upgrade these files
       const fileName = path.basename(absoluteSrcFilePath);
       // This also includes __tests__/index.*.js
+      console.log("!!! absoluteSrcFilePath=" + absoluteSrcFilePath);
+      if (fileName === 'index.mer.js') { return; }
       if (fileName === 'index.ios.js') { return; }
       if (fileName === 'index.android.js') { return; }
     }
@@ -53,6 +55,7 @@ function copyProjectTemplateAndReplace(srcPath, destPath, newProjectName, option
         );
       };
     }
+	console.log("copyAndReplace " + absoluteSrcFilePath + " to " + destPath);
     copyAndReplace(
       absoluteSrcFilePath,
       path.resolve(destPath, relativeRenamedPath),

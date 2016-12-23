@@ -30,6 +30,15 @@ function printRunInstructions(projectDir, projectName) {
   console.log('   Have an Android emulator running (quickest way to get started), or a device connected');
   if (needToCd) { console.log('   cd ' + relativeProjectDir); }
   console.log('   react-native run-android');
+  // Mer
+  const qtProjectPath = path.resolve(projectDir, 'mer', projectName) + '.pro';
+  const relativeQtProjectPath = path.relative(process.cwd(), qtProjectPath);
+  console.log(chalk.white.bold('To run your app on Mer:'));
+  if (needToCd) { console.log('   cd ' + relativeProjectDir); }
+  console.log('   react-native run-mer');
+  console.log('   - or -');
+  console.log('   Open ' + relativeQtProjectPath + ' in Sailfish SDK IDE');
+  console.log('   Hit the Run button');
 }
 
 module.exports = printRunInstructions;
